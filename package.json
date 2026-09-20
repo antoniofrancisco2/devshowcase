@@ -1,0 +1,22 @@
+{
+  "name": "devshowcase",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx tsx watch src/server.ts",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.22.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.20.4",
+    "prisma": "^8.0.0-rc.15",
+    "tsx": "^4.23.13",
+    "typescript": "^5.9.3"
+  }
+}
